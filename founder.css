@@ -179,7 +179,7 @@
 }
 
 .footer {
-    background: rgba(0, 0, 0, 0.7) url('./photo\ 7.jpg');
+    background: url('photo\ 7.jpg') rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -230,7 +230,7 @@
 }
 
 .submit-button {
-    background: url('./photo\ 4.jpg');
+    background: url('photo\ 4.jpg');
     height: 40px;
     width: 200px;
     border-radius: 10px;
@@ -367,7 +367,7 @@
         padding: 10px;
     }
     .submit-button {
-        background: url('./photo\ 4.jpg');
+        background: url('photo\ 4.jpg');
         height: 40px;
         width: 200px;
         border-radius: 10px;
