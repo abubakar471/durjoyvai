@@ -136,7 +136,7 @@
 }
 
 .button-search {
-    background: url('/images/photo\ 4.jpg');
+    background: url('./photo\ 4.jpg');
     color: white;
     font-weight: bold;
     padding: 3px;
@@ -179,7 +179,7 @@
 }
 
 .footer {
-    background: rgba(0, 0, 0, 0.7) url('../images/photo\ 7.jpg');
+    background: rgba(0, 0, 0, 0.7) url('./photo\ 7.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -230,7 +230,7 @@
 }
 
 .submit-button {
-    background: url('../images/photo\ 4.jpg');
+    background: url('./photo\ 4.jpg');
     height: 40px;
     width: 200px;
     border-radius: 10px;
@@ -288,7 +288,7 @@
         width: 330px;
     }
     .button-search {
-        background: url('/images/photo\ 4.jpg');
+        background: url('./photo\ 4.jpg');
         color: white;
         font-weight: bold;
         padding: 10px;
@@ -319,7 +319,7 @@
         
     }
     .footer {
-        background: rgba(0, 0, 0, 0.7) url('../images/photo\ 7.jpg');
+        background: rgba(0, 0, 0, 0.7) url('./photo\ 7.jpg');
         background-size: cover;
         background-blend-mode: darken;
         height: 100vh;
@@ -367,7 +367,7 @@
         padding: 10px;
     }
     .submit-button {
-        background: url('../images/photo\ 4.jpg');
+        background: url('./photo\ 4.jpg');
         height: 40px;
         width: 200px;
         border-radius: 10px;
