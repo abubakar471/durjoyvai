@@ -8,7 +8,7 @@ body {
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7) url('../images/photo\ 1.jpg');
+    background: rgba(0, 0, 0, 0.7) url('./photo\ 1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .button-search {
-    background: url('/images/photo\ 4.jpg');
+    background: url('./photo\ 4.jpg');
     color: white;
     font-weight: bold;
     padding: 3px;
@@ -133,13 +133,13 @@ body {
     text-align: center;
     padding: 300px 0px 300px 0px;
     color: white;
-    background: rgba(0, 0, 0, 0.7) url('../images/photo\ 10.jpg');
+    background: rgba(0, 0, 0, 0.7) url('./photo\ 10.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
 
 .footer {
-    background: rgba(0, 0, 0, 0.7) url('../images/photo\ 3.jpg');
+    background: rgba(0, 0, 0, 0.7) url('./photo\ 3.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -190,7 +190,7 @@ body {
 }
 
 .submit-button {
-    background: url('../images/photo\ 4.jpg');
+    background: url('./photo\ 4.jpg');
     height: 40px;
     width: 200px;
     border-radius: 10px;
@@ -248,7 +248,7 @@ body {
         width: 330px;
     }
     .button-search {
-        background: url('/images/photo\ 4.jpg');
+        background: url('.//photo\ 4.jpg');
         color: white;
         font-weight: bold;
         padding: 10px;
