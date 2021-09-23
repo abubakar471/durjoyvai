@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../images/photo\ 1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 5vh;
+    border-bottom: 3px solid transparent;
+    overflow: hidden;
+}
+
+.leftnav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 5%;
+}
+
+.navlist {
+    display: flex;
+    justify-content: center;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    background: transparent;
+}
+
+.navlist li a {
+    background-color: whtie;
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li a:hover {
+    font-size: 20px;
+    color: rgb(191, 216, 78);
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    padding: 3px;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+.button-search {
+    background: url('/images/photo\ 4.jpg');
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    border-bottom-right-radius: 9px;
+}
+
+.header-post {
+    color: white;
+    height: 100vh;
+}
+
+.heder-post-credit {
+    padding: 20px 120px 0px 190px;
+    font-size: 16px;
+}
+
+.text-big {
+    font-size: 25px;
+    padding-top: 90px;
+    font-family: comic sans ms;
+}
+
+.text-small {
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: comic sans ms;
+}
+
+#posts {
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#posts img {
+    width: 40%;
+    padding: 20px 0px 20px 0px;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 300px 0px 300px 0px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7) url('../images/photo\ 10.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.7) url('../images/photo\ 3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#contact {
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    color: white;
+}
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contact-us-input {
+    height: 30px;
+    width: 600px;
+    border-radius: 4px;
+    text-indent: 15px;
+    font-size: 18px;
+}
+
+.contact-us-username-e-mail {
+    color: whtie;
+    font-size: 25px;
+    padding: 20px 0px 20px 0px;
+}
+
+#comment {
+    height: 80px;
+    width: 600px;
+    text-indent: 15px;
+    border-radius: 4px;
+    padding: 10px 0px 20px 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+.button-for-contact-us {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.submit-button {
+    background: url('../images/photo\ 4.jpg');
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-copyright-credit a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copyright-credit a:hover {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1140px) {
+    .navbar {
+        height: 20vh;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .leftnav {
+        width: 10%;
+        padding: 20px 0px 20px 0px;
+        font-size: 14px;
+    }
+    .logo {
+        display: flex;
+        padding-bottom: 10px;
+        margin: 0 10px;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+    .navlist ul {
+        overflow: hidden;
+    }
+    .navlist li {
+        display: inline-block;
+        margin: 0 0px;
+        list-style: none;
+        background: transparent;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .rightnav {
+        text-align: center;
+    }
+    .search {
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 4px;
+        width: 330px;
+    }
+    .button-search {
+        background: url('/images/photo\ 4.jpg');
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        border-bottom-right-radius: 9px;
+    }
+    .header-post {
+        color: white;
+        height: 70vh;
+    }
+    .header-post-credit {
+        padding: 10px 0px 0px 100px;
+        font-size: 10px;
+    }
+    .text-big {
+        font-size: 14px;
+        padding-top: 40px;
+        font-family: comic sans ms;
+    }
+    .text-small {
+        font-size: 8px;
+        padding-top: 20px;
+        font-family: comic sans ms;
+    }
+    #posts {
+        padding: 50px 0px 50px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #contact {
+        text-align: center;
+        padding: 50px 0px 20px 0px;
+        color: white;
+    }
+    .contact-us-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 40%;
+        margin: auto;
+    }
+    .contact-us-input {
+        height: 30px;
+        width: 300px;
+        border-radius: 4px;
+        text-indent: 15px;
+        font-size: 18px;
+    }
+    .contact-us-username-e-mail {
+        color: whtie;
+        font-size: 25px;
+        padding: 20px 0px 20px 0px;
+    }
+    #comment {
+        height: 80px;
+        width: 300px;
+        text-indent: 15px;
+        border-radius: 4px;
+        padding: 10px 0px 20px 0px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        resize: none;
+    }
+    .button-for-contact-us {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .submit-button {
+        background: url('../images/photo\ 4.jpg');
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+    }
+    .footer-copyright-credit a {
+        color: white;
+        text-decoration: none;
+    }
+    .footer-copyright-credit a:hover {
+        font-size: 18px;
+    }
+}
